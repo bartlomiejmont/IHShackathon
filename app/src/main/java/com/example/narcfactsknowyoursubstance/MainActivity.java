@@ -1,5 +1,6 @@
 package com.example.narcfactsknowyoursubstance;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void showDonutOrder(View view) {
         displayToast(getString(R.string.donut_order_message));
+    }
+
+    public void listView(View view) {
+        Intent intent = new Intent(this, ListActivity.class);
+        startActivity(intent);
     }
 
     @Override
