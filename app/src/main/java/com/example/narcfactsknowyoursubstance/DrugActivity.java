@@ -18,7 +18,7 @@ public class DrugActivity extends AppCompatActivity {
 
         TextView text = (TextView) findViewById(R.id.drug_name);
 
-        text.setText(drugInfo[]);
+        text.setText(drugInfo);
     }
 
 }
