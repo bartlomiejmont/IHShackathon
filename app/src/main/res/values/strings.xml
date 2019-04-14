@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">NarcFactsKnowYourSubstance</string>
     <string name="donut_order_message">DJ wieli chuj</string>
+
+    <string-array name="support_issues_array">
+        <item>Cannabis</item>
+        <item>Alcohol</item>
+        <item>Cigaretes</item>
+        <item>Coke</item>
+    </string-array>
+
 </resources>
