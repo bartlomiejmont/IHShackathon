@@ -11,6 +11,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ListActivity extends AppCompatActivity
 {
@@ -27,7 +28,7 @@ public class ListActivity extends AppCompatActivity
         setContentView(R.layout.activity_list);
 
         String drugs [] = getResources().getStringArray(R.array.support_issues_array);
-
+        Arrays.sort(drugs);
 
         lvItems = (ListView) findViewById(R.id.drugs_listview);
         items = new ArrayList<String>();
